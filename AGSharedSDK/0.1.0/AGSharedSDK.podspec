@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
     # s.frameworks = 'UIKit', 'ImageIO', 'CoreTelephony', 'CoreGraphics', 'Security'
   # s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
-  s.dependency "AFNetworking"
+  #s.dependency "AFNetworking"
 end
  
 
