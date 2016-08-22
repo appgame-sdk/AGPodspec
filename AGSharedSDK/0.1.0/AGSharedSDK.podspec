@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "5.0"
    s.source       = { :git => "https://github.com/appgame-sdk/AGShareSDK.git", :tag => s.version }
-  # s.source_files = 'UI/Classes/**/*'
+   s.source_files = 'UI/Classes/**/*'
   s.requires_arc = true
-    # s.frameworks = 'UIKit', 'ImageIO', 'CoreTelephony', 'CoreGraphics', 'Security'
-  # s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
-  #s.dependency "AFNetworking"
+     s.frameworks = 'UIKit', 'ImageIO', 'CoreTelephony', 'CoreGraphics', 'Security'
+   s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
+  s.dependency "AFNetworking"
 end
  
 
