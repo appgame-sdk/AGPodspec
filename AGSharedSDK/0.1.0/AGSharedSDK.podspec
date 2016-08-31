@@ -17,8 +17,6 @@ Pod::Spec.new do |s|
      s.frameworks = 'UIKit', 'ImageIO', 'CoreTelephony', 'CoreGraphics', 'Security'
      s.vendored_frameworks = 'classes/PlatformType/AGShareSDK.framework'
      s.vendored_frameworks = 'classes/Vendor/QQSDK/TencentOpenAPI.framework'
-     s.vendored_frameworks = 'classes/Vendor/WeChatSDK/libWeChatSDK.a'
-     s.vebdored_frameworks = 'classes/Vendor/SinaWeiboSDK/libWeiboSDK.a'
      s.resources = 'classes/Vendor/SinaWeiboSDK/WeiboSDK.bundle'
       s.resources = 'classes/Vendor/QQSDK/TencentOpenApi_IOS_Bundle.bundle'
    s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
