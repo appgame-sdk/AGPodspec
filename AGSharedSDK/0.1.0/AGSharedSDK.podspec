@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "AGSharedSDK"
-  s.version      = " 0.1.0"
+  s.version      = " 0.1.1"
   s.summary      = "this is demo of  SDK"
   s.description  = <<-DESC
                this is a demo of  SDK aa aa.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
       s.resources = 'classes/Vendor/QQSDK/TencentOpenApi_IOS_Bundle.bundle'
    s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
   #s.dependency "AFNetworking"
-  s.dependenc "NYXImagesKit"
+  s.dependency "NYXImagesKit"
 end
  
 
