@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
      s.resources = 'classes/Vendor/SinaWeiboSDK/WeiboSDK.bundle'
       s.resources = 'classes/Vendor/QQSDK/TencentOpenApi_IOS_Bundle.bundle'
    s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
-  s.dependency "AFNetworking"
+  #s.dependency "AFNetworking"
   s.dependenc "NYXImagesKit"
 end
  
