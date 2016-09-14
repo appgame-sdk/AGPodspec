@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
    s.source       = { :git => "https://github.com/appgame-sdk/AGSharedSDK.git", :tag => s.version }
    s.source_files = 'classes/**/*'
   s.requires_arc = true
-     s.frameworks = 'UIKit', 'ImageIO', 'CoreTelephony', 'CoreGraphics', 'Security'
+     s.frameworks = 'UIKit', 'ImageIO', 'CoreTelephony', 'CoreGraphics', 'Security','AGShareSDK'
     s.vendored_frameworks = 'classes/Vendor/QQSDK/TencentOpenAPI.framework','classes/PlatformType/AGShareSDK.framework'
     # s.vendored_frameworks = 'classes/PlatformType/AGShareSDK.framework'
     # s.resources = 'classes/Vendor/SinaWeiboSDK/WeiboSDK.bundle'
