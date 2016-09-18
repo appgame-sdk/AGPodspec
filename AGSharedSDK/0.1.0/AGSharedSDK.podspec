@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'classes/Vendor/QQSDK/TencentOpenAPI.framework'
     # s.vendored_frameworks = 'classes/PlatformType/AGShareSDK.framework'
     s.resources = 'classes/Vendor/SinaWeiboSDK/WeiboSDK.bundle','classes/Vendor/QQSDK/TencentOpenApi_IOS_Bundle.bundle'
-   s.libraries = 'libc++', 'libc++abi', 'libz', 'libsqlite3'
+   s.libraries =  'libc++abi', 'libz', 'libsqlite3','libc++'
   s.dependency "AFNetworking"
   s.dependency "NYXImagesKit"
 end
